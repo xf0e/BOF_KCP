@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BOF_EXM", "BOF_EXM.vcxproj", "{67C06911-8450-4430-A91B-24C2FF527CF8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67C06911-8450-4430-A91B-24C2FF527CF8}.Debug|x86.ActiveCfg = Debug|Win32
+		{67C06911-8450-4430-A91B-24C2FF527CF8}.Debug|x86.Build.0 = Debug|Win32
+		{67C06911-8450-4430-A91B-24C2FF527CF8}.Release|x86.ActiveCfg = Release|Win32
+		{67C06911-8450-4430-A91B-24C2FF527CF8}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {90D61809-FB20-47C5-8A9F-D2B09A1E0CB6}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Helper Routines">
+      <UniqueIdentifier>{92b44822-6736-4aea-ba6d-3ce51e81316c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugin Implementation">
+      <UniqueIdentifier>{acdc9623-16eb-452a-ae59-39c2d5337425}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugin Implementation\CFGACI">
+      <UniqueIdentifier>{5b371e98-c0be-4c10-a615-fff13fb580e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugin Implementation\CFGACI\Data">
+      <UniqueIdentifier>{bb863676-39c3-4237-82db-e2619744c385}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugin Implementation\CFGACI\UI">
+      <UniqueIdentifier>{8a700f5c-0ef5-46f2-83b1-1478eea4ad45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugin Implementation\Plugin">
+      <UniqueIdentifier>{fd218e80-1416-4fb0-8bcc-4df26a7b5155}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Framework">
+      <UniqueIdentifier>{a42cee63-dc6e-4d5f-87f9-70f0023af6cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Framework\Precompile">
+      <UniqueIdentifier>{336fc051-2d90-4893-8cbd-5aa16dbed502}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Framework\Resource">
+      <UniqueIdentifier>{f676ec96-60d9-4532-ae07-8820b45d7d0a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TxtFileWriter.cpp">
+      <Filter>Helper Routines</Filter>
+    </ClCompile>
+    <ClCompile Include="MyCFGACIData.cpp">
+      <Filter>Plugin Implementation\CFGACI\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="MyCFGACIUI.cpp">
+      <Filter>Plugin Implementation\CFGACI\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="MyPlugin.cpp">
+      <Filter>Plugin Implementation\Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Project Framework\Precompile</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TxtFileWriter.h">
+      <Filter>Helper Routines</Filter>
+    </ClInclude>
+    <ClInclude Include="MyCFGACIData.h">
+      <Filter>Plugin Implementation\CFGACI\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="MyCFGACIUI.h">
+      <Filter>Plugin Implementation\CFGACI\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="MyPlugin.h">
+      <Filter>Plugin Implementation\Plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Project Framework\Precompile</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\resource.h">
+      <Filter>Project Framework\Resource</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource\BOF_EXM.rc">
+      <Filter>Project Framework\Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
